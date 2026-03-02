@@ -12,6 +12,10 @@ type=endpoint
 context=internal
 disallow=all
 allow=ulaw,alaw
+transport=transport-tls
+media_encryption=sdes
+rewrite_contact=yes
+language=fr
 auth=$USERNAME
 aors=$USERNAME
 
